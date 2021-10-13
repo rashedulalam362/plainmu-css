@@ -1,7 +1,13 @@
 .App {
   text-align: center;
 }
+.slider {
+  color: #13214e;
+}
 
+.slider:hover {
+  color: #0a050936;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

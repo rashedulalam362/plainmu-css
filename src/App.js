@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+// import { Slider } from '@mui/material';
+
+import { Container } from '@mui/material';
+import Navbar from './components/Navbar/Navbar';
+import Infotech from './components/Infotech/Infotech';
+import CardDetails from './components/CardDetails/CardDetails';
+import News from './components/News/News';
+import IitemsProducts from './components/litemsProduct/IitemsProducts';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container  maxWidth="lg">
+    <Navbar/>
+    <Infotech/>
+    <CardDetails/>
+    <News/>
+    <IitemsProducts/>
+
+    </Container>
   );
 }
 
